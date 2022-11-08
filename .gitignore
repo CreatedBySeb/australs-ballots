@@ -1,0 +1,8 @@
+dist/
+node_modules/
+
+env.json
+env.*.json
+
+*.sqlite3*
+*.tar.gz

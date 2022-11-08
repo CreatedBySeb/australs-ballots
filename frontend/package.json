@@ -1,0 +1,26 @@
+{
+  "name": "australs-ballots-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint --fix-dry-run src/**/*.{ts,vue}",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "sass": "^1.45.1",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
